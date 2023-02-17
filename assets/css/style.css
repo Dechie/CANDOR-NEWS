@@ -424,7 +424,7 @@ li {
   margin: 20px 0;
 }
 
-input[type="text"] {
+.search-box {
   padding: 10px;
   border: 2px solid #ccc;
   border-radius: 4px;
@@ -432,8 +432,8 @@ input[type="text"] {
   margin-right: 5px;
 }
 
-button[type="submit"] {
-  background-color: #4caf50;
+.search {
+  background-color: #09150a;
   color: white;
   padding: 10px 20px;
   border: none;
