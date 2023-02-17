@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/Logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>CANDOR || Signup</title>
+</head>
+
+<body>
+    <header>
+        <div class="login-nav">
+            <div class="login-nav-container">
+                <img src="./assets/images/Logo.jpg" alt="CANDOR">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="form-container">
+            <form id="login-form" action="" method="POST" enctype="multipart/form-data">
+                <h1>signup</h1>
+                <div class="input-group">
+                    <label for="first_name">First Name*</label>
+                    <input required type="first_name" placeholder="Enter First Name" id="first_name">
+                </div>
+                <div class="input-group">
+                    <label for="last_name">Last Name*</label>
+                    <input required type="last_name" placeholder="Enter Last Name" id="last_name">
+                </div>
+                <div class="input-group">
+                    <label for="email">Email*</label>
+                    <input required type="email" placeholder="Enter Email" id="email">
+                </div>
+                <div class="input-group">
+                    <label for="email">Profile Picture</label>
+                    <input style="width: 100%;" type="file">
+                </div>
+                <div class="input-group">
+                    <label for="password">Password*</label>
+                    <input required type="password" placeholder="Enter Password" id="password">
+                </div>
+                <div class="input-group">
+                    <label for="confirm_password">Confirm Password*</label>
+                    <input required type="password" placeholder="Enter Password Again" id="confirm_password">
+                </div>
+                <div class="input-group">
+                    <div class="error" style="display:none">
+                        <p style="display:none" id="error"></p>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <button type="submit" class="btn-log">Signup</button>
+                </div>
+                <a href="login.html">Login</a>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-content">&COPY;2023 &#9; | &#9; <a href="#">candor</a> <a href="index.html">return
+                    home</a> </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!-- A form the same as the signup layout to add a new article to the database. accepts text and inputs images  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/Logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>CANDOR || Add Article</title>
+</head>
+
+<body>
+    <header>
+        <div class="login-nav">
+            <div class="login-nav-container">
+                <img src="./assets/images/Logo.jpg" alt="CANDOR">
+            </div>
+
+        </div>
+    </header>
+    <div class="container">
+        <div class="form-container">
+            <form id="article-form" action="" method="POST" enctype="multipart/form-data">
+                <h1>Add An Article</h1>
+                <div class="input-group">
+                    <label for="article">Article*</label>
+                    <textarea
+                        style="vertical-align: top; text-align: left; height:250px; border-radius: 10px;"></textarea>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email*</label>
+                    <input required type="email" placeholder="Enter Email" id="email">
+                </div>
+                <div class="input-group">
+                    <label for="email">Upload Images</label>
+                    <input type="file"> <br>
+                    <input type="file"> <br>
+                    <input type="file">
+                </div>
+                <div class="input-group">
+                    <label for="article">Final Notes</label>
+                    <input required type="textbox" placeholder="Enter your final remark" id="article">
+                </div>
+                <div class="input-group">
+                    <button type="submit" class="btn-log">Submit</button> <br>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footer-content">&COPY;2023 &#9; | &#9;<a href="#">candor</a> <a href="index.html">return
+                    home</a> </div>
+        </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+
+
+    <script>
+
+    </script>
+</body>
+
+</html>
